@@ -5,15 +5,23 @@
 
 ## App-suite list
 
- 1. [China mainland suite](source/China-mainland-suite.ps1)
+ 1. [China mainland suite](source/China-mainland-suite/)
 
     - [Package](https://chocolatey.org/packages/China-mainland-suite/)
 
     - [Install](https://boxstarter.org/package/China-mainland-suite/)
 
- 2. [Web / JavaScript full stack](source/Web-JavaScript-full-stack.ps1)
+ 2. [Web / JavaScript full stack](source/Web-JavaScript-full-stack/)
 
- 3. [Python developer](source/Python-developer.ps1)
+    - [Package](https://chocolatey.org/packages/web-javaScript-full-stack/)
+
+    - [Install](https://boxstarter.org/package/web-javaScript-full-stack/)
+
+ 3. [Python developer](source/Python-developer/)
+
+    - [Package](https://chocolatey.org/packages/python-developer-suite/)
+
+    - [Install](https://boxstarter.org/package/python-developer-suite/)
 
 
 ## Project origin

@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>china-mainland-suite</id>
+    <version>1.0.0</version>
+    <packageSourceUrl>https://github.com/TechQuery/Chocolatey-awesome/blob/master/source/China-mainland-suite/</packageSourceUrl>
+    <owners>TechQuery</owners>
+    <title>China-mainland-suite</title>
+    <authors>TechQuery</authors>
+    <projectUrl>https://github.com/TechQuery/Chocolatey-awesome</projectUrl>
+    <!--<iconUrl>http://cdn.rawgit.com/__REPLACE_YOUR_REPO__/master/icons/china-mainland-suite.png</iconUrl>-->
+    <copyright>2019 TechQuery</copyright>
+    <licenseUrl>https://github.com/TechQuery/Chocolatey-awesome/blob/master/LICENSE</licenseUrl>
+    <requireLicenseAcceptance>true</requireLicenseAcceptance>
+    <projectSourceUrl>https://github.com/TechQuery/Chocolatey-awesome</projectSourceUrl>
+    <!--<docsUrl>At what url are the software docs located?</docsUrl>-->
+    <bugTrackerUrl>https://github.com/TechQuery/Chocolatey-awesome/issues</bugTrackerUrl>
+    <tags>china china-mainland chinese suite collection</tags>
+    <summary>The most commonly used software in mainland China</summary>
+    <description>The most commonly used software in mainland China</description>
+    <dependencies>
+      <dependency id="chocolatey-core.extension" version="1.1.0" />
+      <dependency id="boxstarter.winconfig" version="2.12.0" />
+      <dependency id="ChocolateyGUI" version="0.16.0" />
+      <dependency id="everything" version="1.4.1924" />
+      <dependency id="notepad3" version="4.18.512.992" />
+      <dependency id="7zip" version="18.5.0.20180730" />
+      <dependency id="360ts" version="" />
+      <dependency id="firefox" version="64.0" />
+      <dependency id="tim" version="2.3.1.2" />
+      <dependency id="wps-office-free" version="10.2.0.758700" />
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>

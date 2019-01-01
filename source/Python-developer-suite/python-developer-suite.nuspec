@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>python-developer-suite</id>
+    <version>0.1.0</version>
+    <packageSourceUrl>https://github.com/TechQuery/Chocolatey-awesome/blob/master/source/Python-developer-suite/</packageSourceUrl>
+    <owners>TechQuery</owners>
+    <title>Python developer suite</title>
+    <authors>TechQuery</authors>
+    <projectUrl>https://github.com/TechQuery/Chocolatey-awesome</projectUrl>
+    <!--<iconUrl>http://cdn.rawgit.com/__REPLACE_YOUR_REPO__/master/icons/Python-developer-suite.png</iconUrl>-->
+    <copyright>2019 TechQuery</copyright>
+    <licenseUrl>https://github.com/TechQuery/Chocolatey-awesome/blob/master/LICENSE</licenseUrl>
+    <requireLicenseAcceptance>true</requireLicenseAcceptance>
+    <projectSourceUrl>https://github.com/TechQuery/Chocolatey-awesome</projectSourceUrl>
+    <!--<docsUrl>At what url are the software docs located?</docsUrl>-->
+    <bugTrackerUrl>https://github.com/TechQuery/Chocolatey-awesome/issues</bugTrackerUrl>
+    <tags>python developer suite collection</tags>
+    <summary>The most commonly used software for Python developers</summary>
+    <description>The most commonly used software for Python developers</description>
+    <dependencies>
+      <dependency id="git" version="2.20.1" />
+      <dependency id="tortoisegit" version="2.7.0.0" />
+      <dependency id="vscode" version="1.30.1" />
+      <dependency id="python" version="3.7.2" />
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
